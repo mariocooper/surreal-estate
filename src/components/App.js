@@ -1,3 +1,4 @@
+import NavBar from './NavBar';
 import '../styles/app.css';
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
       <header className="app-header">
         Surreal Estate
       </header>
+      <NavBar />
     </div>
   );
 }

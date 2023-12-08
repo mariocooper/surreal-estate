@@ -1,0 +1,16 @@
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid grey;
+  display: flex;
+}
+
+.navbar-image {
+  width: 20%;
+  height: 100px;
+}
+
+.navbar-links-item {
+  margin: 0;
+  padding: 10px;
+  display: inline-block;
+}
