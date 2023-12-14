@@ -11,5 +11,5 @@ describe('App', () => {
     </BrowserRouter>
     );
     expect(asFragment()).toMatchSnapshot();
-  })
+  });
 });

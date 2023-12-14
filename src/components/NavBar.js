@@ -9,16 +9,16 @@ const NavBar = () => {
         src="https://mcrcodes.s3.eu-west-2.amazonaws.com/course/surreal-estate/logo.png"
         alt="surrealEstateLogo"
       />
-      <ul>
-        <Link className="navbar-links-item">
+      <ul className='navbar-links'>
+        <Link className="navbar-links-item" to='/'>
           View Properties
         </Link>
-        <Link className="navbar-links-item">
+        <Link className="navbar-links-item" to='add-property'>
           Add a Property
         </Link>
       </ul>
     </div>
-  )
+  );
 };
 
 export default NavBar;
