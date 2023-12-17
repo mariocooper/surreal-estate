@@ -1,0 +1,42 @@
+.add-property {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-property > form {
+  background-color: white;
+  padding: 15px;
+  margin: 25px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.title-field,
+.city-field,
+.type-field,
+.bedrooms-field,
+.bathrooms-field,
+.price-field,
+.email-field {
+  height: 80px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 5px;
+  width: 50%;
+}
+  
+select {
+  margin: 5px;
+  width: 50%;
+}
+
+button {
+  width: 100%;
+}
